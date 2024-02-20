@@ -2,9 +2,9 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-st.header('Lanzar una moneda')
+st.header('Proyecto')
 
-st.write('Esta aplicación aún no es funcional. En construcción.') 
+st.write('Estamos en proceso') 
 
 car_data = pd.read_csv('/Users/angelgabrielalvarezvalenzuela/TripleTen-Project/vehicles_us.csv') # leer los datos
 hist_button = st.button('Construir histograma') # crear un botón
